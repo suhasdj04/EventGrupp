@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventGrupp - Get The Best Deals Always Within Budget</title>
+    <link rel="stylesheet" href=".//assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="img\logo.png" alt="EventKeepers Logo"> </div>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <!-- <li><a href="#">Exhibition</a></li> -->
+                    <li><a href="./venue.html">Venues</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./login.html">Login</a></li> 
+                </ul>
+            </nav>
+            <a href="https://www.eventkepers.com/bookingform.php" class="btn-book-now">Book Now</a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>GET THE BEST <span class="highlight">DEALS ALWAYS</span> WITHIN BUDGET</h1>
+            <p>Search events. Book with confidence. Relax and enjoy</p>
+            <div class="search-bar">
+                <select name="city" id="city">
+                    <option value="">Select City</option>
+                    <option value="bangalore" >Bangalore</option>
+                    <option value="chennai">Chennai</option>
+                    <!-- <option value="kolkata">kolkata</option> -->
+                    <option value="mumbai">Mumbai</option>
+                    <option value="delhi">Dehli</option>
+                </select>
+                <select name="vendor" id="vendor">
+                    <option value="">Select Vendor</option>
+                    <option value="venues">Venues</option>
+                    <option value="bridal-makeup">Bridal Makeup</option>
+                    <option value="photographer">Photographer</option>
+                    <option value="caterer">Caterer</option>
+                    <option value="decorator">Decorator</option>
+                </select>
+                <select name="occasion" id="occasion">
+                    <option value="">Select Event</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="birthday-party">Birthday Party</option>
+                    <option value="corporate-event">Corporate Event</option>
+                    <option value="exhibition">Exhibition</option>
+                    <option value="anniversary">Anniversary</option>
+                </select>
+                <button type="button" class="btn-search">
+  <i class="fas fa-search"></i> SEARCH
+ </button>  <!--onclick="window.location.href='https:/www.eventkepers.com/bangalore.php'" -->
+
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="container info-grid">
+            <div class="about-event">
+                <h2>About The Event</h2>
+                <p>Committed toward itself as India's premier partner to envision, refine, staffing & execute celebrations of all genres from weddings to corporate events, self-styled events. Whether you're hosting an intimate gathering or a large-scale function, EventKeepers provides access to a vast selection of top-tier properties, ensuring that every event is executed to perfection.</p>
+            </div>
+            <div class="exclusive-offer">
+                <h2>Exclusive Offer</h2>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Get **20% OFF** on your event expenses!</li>
+                    <li><i class="fas fa-check-circle"></i> **Venue Booking**: Find the perfect space for your special occasion with huge savings!</li>
+                    <li><i class="fas fa-check-circle"></i> **Corporate Gifts**: Impress your clients or employees with thoughtful gifts at discounted rates.</li>
+                    <li><i class="fas fa-check-circle"></i> **Exhibition Stall Design**: Professional stall designs, experts, and corporate services.</li>
+                    <li><i class="fas fa-check-circle"></i> **Exhibition Stall Design and Fabrication** - flat **30% off!**</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section class="city-presence-section">
+        <div class="container">
+            <h2>OUR CITY PRESENCE</h2>
+            <p class="subtitle">available Here</p>
+            <div class="city-gallery">
+                <div class="city-card">
+                    <img src="img\city\bangalore.webp" alt="Bangalore City"> <p>Bangalore</p>
+                </div>
+                <div class="city-card">
+                    <img src="img\city\chennai.jpg" alt="Chennai City"> <p>Chennai</p>
+                </div>
+                <div class="city-card">
+                    <img src="img\city\delhincr.jpg" alt="Delhi City"> <p>Dehli</p>
+                </div>
+                <!-- <div class="city-card">
+                    <img src="img\city\kolkata.webp" alt="Kolkata City"> <p>Kolkata</p>
+                </div> -->
+                <div class="city-card">
+                    <img src="img\city\mumbai.jpg" alt="Mumbai City"> <p>Mumbai</p>
+                </div>
+                <!-- <div class="city-card">
+                    <img src="img\city\patna-golghar.webp" alt="Patna City"> <p>Patna</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section class="services-section">
+        <div class="container">
+            <h2>EVENTKEEPERS SERVICES</h2>
+            <p class="subtitle">Best & Easy Booking Services we offer</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="img\services\wedding-hotel.jpg" alt="Venues Service"> <div class="overlay-text">
+                        <h3>Venues</h3>
+                        <p>Banquet Halls, Lawns, Farmhouse...</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="img\services\bridal.jpg" alt="Bridal Makeup Service"> <div class="overlay-text">
+                        <h3>Bridal Makeup</h3>
+                        <p>Professional makeup artists</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="img\services\photoShoot.jpg" alt="Photographer Service"> <div class="overlay-text">
+                        <h3>Photographer</h3>
+                        <p>Capture your precious moments</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="img\services\eventSeating.jpg" alt="Caterer Service"> <div class="overlay-text">
+                        <h3>Caterer</h3>
+                        <p>Delicious food for every occasion</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="img\services\wedding-decorators.jpg" alt="Wedding Event"> <div class="overlay-text">
+                        <h3>Wedding Events</h3>
+                        <p>Plan your dream wedding</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="img\services\birthday.webp" alt="Birthday Party Event"> <div class="overlay-text">
+                        <h3>Birthday Parties</h3>
+                        <p>Fun and memorable celebrations</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="img\services\coroporate-event.webp" alt="Corporate Event">
+                    <div class="overlay-text">
+                        <h3>Corporate Event</h3>
+                        <p>Creating unforgettable events</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="img\services\digisol-stall-designs.webp" alt="Exhibition">
+                    <div class="overlay-text">
+                        <h3>Exhibition</h3>
+                        <p>Stall Design and Fabrication</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="img\services\corporate-gifiting.webp" alt="Corporate Gifting">
+                    <div class="overlay-text">
+                        <h3>Corporate Gifting</h3>
+                        <p>Specialties in premium corporate gifting solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section class="gallery-section">
+        <div class="container">
+            <h2>OUR WORK</h2>
+            <p class="subtitle">Event gallery</p>
+            <div class="work-gallery-grid">
+                <img src="img\venue-gallery\6.jpg" alt="Event Setup 1">
+                <img src="img\venue-gallery\7.jpg" alt="Event Setup 2">
+                <img src="img\venue-gallery\bajajallianze.webp" alt="Event Setup 3">
+                <img src="img\venue-gallery\srmmevent.webp" alt="Event Setup 4">
+                <img src="img\venue-gallery\sushanm.webp" alt="Event Setup 5">
+                <img src="img\venue-gallery\valmetevent.webp" alt="Event Setup 6">
+                <img src="img\venue-gallery\nationalkidney.webp" alt="Event Setup 7">
+                <img src="img\venue-gallery\ophthalmologyevent.webp" alt="Event Setup 8">
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section class="hotels-section">
+        
+        <div class="container">
+            <h2>HOTELS</h2>
+            <p class="subtitle">Important hotel listing</p>
+            <div class="hotel-list">
+                <div class="hotel-card">
+                    <img src="img\hotels\the-lalit-mumbai.webp" alt="The Lalit Mumbai">
+                    <h3>The Lalit Mumbai</h3>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p>Andheri Kurla, Mumbai</p>
+                </div>
+                <div class="hotel-card">
+                    <img src="img\hotels\the-taj-mahal-palace.webp" alt="The Taj Mahal Palace">
+                    <h3>The Taj Mahal Palace</h3>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p>Colaba, Mumbai</p>
+                </div>
+                <div class="hotel-card">
+                    <img src="img\hotels\grand-hyatt-mumbai.webp" alt="Grand Hyatt Mumbai">
+                    <h3>Grand Hyatt Mumbai</h3>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p>Santacruz East, Mumbai</p>
+                </div>
+                
+            </div>
+        </div> 
+    </section>
+
+
+
+    ---
+
+    <section class="clients-section">
+        <div class="container">
+            <h2>CLIENTS</h2>
+            <div class="clients-grid">
+                <img src="img\supporters\ideaforgelogo.png" alt="IdeaForge">
+                <img src="img\supporters\lubrizollogo.png" alt="Lubrizol">
+                <img src="img\supporters\rioenergylogo.png" alt="RIOEnergy">
+                <img src="img\supporters\pqsmitralogo.png" alt="PQSmitra">
+                <img src="img\supporters\salasarlogo.png" alt="Salasar">
+                <img src="img\supporters\allydpharmalogo.png" alt="AllydPharma">
+                <img src="img\supporters\dolphininsurancelogo.png" alt="Dolphin Insurance">
+            </div>
+        </div>
+    </section>
+    
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <div class="logo">
+                    <img src="img\logo.png" alt="EventGrupp Logo">
+                </div>
+                <p>Discover seamless event planning with India's Largest Event Booking Portal. Explore a vast array of venues and services, ensuring a perfect match for your occasions. From weddings to corporate events, our platform simplifies the booking process, offering convenience and choice in one centralized hub.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Privacy policy</li>
+                    <li>Refund/Cancellation</li>
+                    <li>Holidays</li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <li>Exhibition</li>
+                    <li>Blog</li>
+                    <li>Corporate Offerings</li>
+                    <li>Venues</li>
+                    <li>Club Membership</li>
+                    <li>Referral program</li>
+                    <li>List your Venue</li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>CONTACT US</h3>
+                <p><strong>Phone:</strong> +91 977xxxxx53</p>
+                <p><strong>Phone:</strong> +91 848xxxxx02</p>
+                <p><strong>Email:</strong> <a href="mailto:info@eventgrupp.com">info@eventgrupp.com</a></p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="city-list">
+                <h4>Banquet Halls by City</h4>
+                <p>New Delhi | Mumbai | Bangalore | Chennai </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Copyright EventGrupp | All Rights Reserved | Designed by **EventGrupp**</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/XXXXXXXXXX" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat</span>
+    </a>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

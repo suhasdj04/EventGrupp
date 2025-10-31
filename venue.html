@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - EventGrupp</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./assets/newstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="./img/logo.png" alt="EventKeepers Logo">
+                <span class="logo-text visually-hidden">EventGrupp</span> 
+            </div>
+            <nav class="main-nav d-none d-lg-block" id="main-nav">
+                <ul class="d-flex list-unstyled m-0">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <!-- <li><a href="#">Exhibition</a></li> -->
+                    <li><a href="venue.html" class="active-link">Venues</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./login.html">Login</a></li> 
+                </ul>
+            </nav>
+            <a href="https://www.eventkepers.com/bookingform.php" class="btn-book-now btn btn-danger">Book Now</a>
+            <button class="menu-toggle btn btn-dark d-lg-none" aria-expanded="false" aria-controls="main-nav" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav d-lg-none" id="mobile-nav-menu">
+            <ul class="list-unstyled">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="gallery.html" class="nav-link active-link">Gallery</a></li>
+                <!-- <li><a href="#" class="nav-link">Exhibition</a></li> -->
+                <li><a href="#" class="nav-link">Venues</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="venues-hero-filter py-5">
+    <div class="container text-center">
+        <h1 class="display-6 mb-3">VENUES</h1>
+        <p class="text-muted mb-5" style="max-width: 800px; margin: 0 auto;">
+            Explore the best venues and banquet halls for every occasion on EventKeepers.com. From intimate gatherings to grand celebrations, discover spaces with capacities ranging from 50 to 2000 guests. Whether you're planning a wedding, corporate event, or special celebration, find detailed information on pricing, reviews, and more—all in one place.
+        </p>
+        
+        <!-- <div class="venue-filter-bar p-3 shadow-sm rounded">
+            <form class="row g-3 align-items-end justify-content-center">
+                
+                <div class="col-6 col-md-3 filter-group">
+                    <label for="city" class="form-label small text-muted">City</label>
+                    <select id="city" class="form-select form-select-sm">
+                        <option selected>All Cities</option>
+                        <option>Mumbai</option>
+                        <option>Delhi</option>
+                        </select>
+                </div>
+
+                <div class="col-6 col-md-3 filter-group">
+                    <label for="area" class="form-label small text-muted">Area</label>
+                    <select id="area" class="form-select form-select-sm">
+                        <option selected>Enter Locality</option>
+                        <option>Colaba</option>
+                        <option>Andheri</option>
+                        </select>
+                </div>
+
+                <div class="col-6 col-md-2 filter-group">
+                    <label for="price" class="form-label small text-muted">Price Range</label>
+                    <select id="price" class="form-select form-select-sm">
+                        <option selected>Price Range</option>
+                        <option>₹1000 - ₹3000</option>
+                        <option>₹3000 - ₹6000</option>
+                        </select>
+                </div>
+
+                <div class="col-6 col-md-2 filter-group">
+                    <label for="guests" class="form-label small text-muted">Number Of Guests</label>
+                    <select id="guests" class="form-select form-select-sm">
+                        <option selected>Guests</option>
+                        <option>50-100</option>
+                        <option>100-300</option>
+                        </select>
+                </div>
+
+                <div class="col-12 col-md-2 filter-group d-grid">
+                    <button type="submit" class="btn btn-primary btn-apply">Apply</button>
+                </div>
+            </form>
+        </div> -->
+    </div>
+</section>
+
+<section class="venue-listing py-5">
+    <div class="container">
+        <div class="row g-4 venue-cards-grid">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="venue-card border rounded overflow-hidden shadow-sm">
+                    <img src="./img/hotels/the-lalit-mumbai.webp" alt="The Lalit Mumbai" class="img-fluid venue-img">
+                    <div class="p-3">
+                        <h3 class="h5 venue-name">The Lalit Mumbai</h3>
+                        <div class="venue-meta d-flex justify-content-between align-items-center small mt-2">
+                            <div>
+                                <span class="text-warning">⭐⭐⭐⭐⭐</span><br>
+                                <span class="text-muted">Andheri East, Mumbai</span>
+                            </div>
+                            <div class="text-end">
+                                <i class="fas fa-users me-1 text-danger"></i> 200 - 500
+                            </div>
+                        </div>
+                        <div class="venue-footer d-flex justify-content-between align-items-center mt-3 pt-2 border-top">
+                            <strong class="price-range text-danger">₹3000 - ₹6000</strong>
+                            <a href="#" class="btn btn-danger btn-sm check-availability">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="venue-card border rounded overflow-hidden shadow-sm">
+                    <img src="./img/hotels/the-taj-mahal-palace.webp" alt="The Taj Mahal Palace" class="img-fluid venue-img">
+                    <div class="p-3">
+                        <h3 class="h5 venue-name">The Taj Mahal Palace</h3>
+                        <div class="venue-meta d-flex justify-content-between align-items-center small mt-2">
+                            <div>
+                                <span class="text-warning">⭐⭐⭐⭐⭐</span><br>
+                                <span class="text-muted">Colaba, Mumbai</span>
+                            </div>
+                            <div class="text-end">
+                                <i class="fas fa-users me-1 text-danger"></i> 300 - 500
+                            </div>
+                        </div>
+                        <div class="venue-footer d-flex justify-content-between align-items-center mt-3 pt-2 border-top">
+                            <strong class="price-range text-danger">₹3000 - ₹6000</strong>
+                            <a href="#" class="btn btn-danger btn-sm check-availability">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="venue-card border rounded overflow-hidden shadow-sm">
+                    <img src="./img/hotels/grand-hyatt-mumbai.webp" alt="Grand Hyatt Mumbai" class="img-fluid venue-img">
+                    <div class="p-3">
+                        <h3 class="h5 venue-name">Grand Hyatt Mumbai</h3>
+                        <div class="venue-meta d-flex justify-content-between align-items-center small mt-2">
+                            <div>
+                                <span class="text-warning">⭐⭐⭐⭐⭐</span><br>
+                                <span class="text-muted">Siddharth Nagar, Mumbai</span>
+                            </div>
+                            <div class="text-end">
+                                <i class="fas fa-users me-1 text-danger"></i> 300 - 500
+                            </div>
+                        </div>
+                        <div class="venue-footer d-flex justify-content-between align-items-center mt-3 pt-2 border-top">
+                            <strong class="price-range text-danger">₹3000 - ₹6000</strong>
+                            <a href="#" class="btn btn-danger btn-sm check-availability">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+    </div>
+</section>
+    
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="row g-4 pt-5 pb-4">
+                </div>
+        </div>
+        <div class="footer-bottom bg-black">
+            <div class="container">
+                <p>&copy; Copyright EventGrupp | All Rights Reserved | Designed by **EventGrupp**</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/XXXXXXXXXX" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat</span>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
